@@ -1,5 +1,7 @@
 # RealTimeTranslation
 
+[English](README.en.md) | [中文](README.md)
+
 实时监听系统音频（腾讯会议 PC 版、视频、直播等任意应用的扬声器输出），
 像视频字幕一样**边听边出字**的转写 + 中英互译工具，可选集成 Gemini Live 实时语音对话。
 

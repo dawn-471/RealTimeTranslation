@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """Credentials store — API keys & endpoints, never hardcoded in code.
 
-Follows the XDG-style split (same as ForeSight): code dir is pure code,
-data dir holds user config. On Windows: %APPDATA%\\RealTimeTranslation\\config.yaml
+Follows the XDG-style split: code dir is pure code, data dir holds user
+config. On Windows: %APPDATA%\\RealTimeTranslation\\config.yaml
 
 The file is plain YAML. Keys are only read from:
   1. the YAML store (data dir), or
