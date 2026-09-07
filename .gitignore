@@ -1,0 +1,18 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Models & transcripts (large / session data)
+models/
+data/
+*.log
+
+# Internal planning docs (not for public repo)
+.hermes/

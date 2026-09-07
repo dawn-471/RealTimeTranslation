@@ -1,0 +1,26 @@
+# MeetingTranscriber 配置示例
+# 复制为 config.yaml 并修改（CLI 参数优先级更高）
+
+# 翻译后端: deepseek | ollama | off
+translate: deepseek
+
+# sherpa-onnx 模型目录（encoder.int8.onnx, decoder.int8.onnx, tokens.txt）
+model_dir: models
+
+# 转写保存目录
+output_dir: data
+
+# loopback 设备索引（-1 = 自动选择默认输出设备，推荐）
+device: -1
+
+# 同时捕获麦克风（自己说话也转写）
+mic: false
+
+# 桌面悬浮字幕窗
+overlay: false
+
+# 不显示终端 TUI
+no_tui: false
+
+# 演示模式（合成音频流）
+fake: false

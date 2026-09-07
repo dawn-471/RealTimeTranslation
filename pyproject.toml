@@ -1,0 +1,30 @@
+[project]
+name = "realtime-translation"
+version = "0.1.0"
+description = "Realtime system-audio transcription (CN/EN) with live translation & Gemini voice chat"
+readme = "README.md"
+authors = [
+    { name = "Dawn", email = "272215895+dawn-471@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "google-genai>=2.22.0",
+    "httpx>=0.28.1",
+    "numpy>=2.5.2",
+    "pyaudiowpatch>=0.2.12.8",
+    "pynput>=1.8.2",
+    "pyyaml>=6.0.3",
+    "rich>=15.0.0",
+    "sherpa-onnx>=1.13.7",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
+
+[tool.uv]
+package = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
